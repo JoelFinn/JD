@@ -1,0 +1,338 @@
+.w {
+  width: 1190px;
+  margin: 0 auto;
+  /* background-color: #293377; */
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+.f10 {
+  color: #f10215 !important;
+}
+
+a:hover {
+  color: #e33333;
+}
+.b {
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?s2ttel');
+  src: url('fonts/icomoon.eot?s2ttel#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?s2ttel') format('truetype'),
+    url('fonts/icomoon.woff?s2ttel') format('woff'),
+    url('fonts/icomoon.svg?s2ttel#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+body {
+  background-color: #f4f4f4;
+  color: #666;
+  font-size: 12px;
+}
+
+header {
+  height: 80px;
+  background-color: #1D150A;
+}
+
+.short {
+  height: 30px;
+  line-height: 30px;
+  background-color: #E3E4E5;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+}
+
+.city {
+  /* margin-left: 200px; */
+}
+
+.short i {
+  font-family: "icomoon";
+  font-style: normal;
+  color: #999;
+}
+
+.short .short-r li {
+  float: left;
+  margin: 0 5px;
+}
+
+.short .short-r .short-bd {
+  height: 10px;
+  width: 1px;
+  border-right: 1px solid #ccc;
+  margin: 11px 5px 0;
+}
+
+.mobile {
+  position: relative;
+}
+
+.mobile img {
+  position: absolute;
+  top: 30px;
+  left: -5px;
+  z-index: 1;
+}
+.toptop {
+  height: 140px;
+  background-color: #fff;
+}
+.top {
+  background-color: #ffFFFF;
+  height: 140px;
+  position: relative;
+}
+
+.logo {
+  padding-top: 10px;
+  padding-left: 0px;
+}
+
+.logo a {
+  display: block;
+  width: 190px;
+  height: 120px;
+  background: url(src/sprite.png) no-repeat;
+}
+
+.search {
+  width: 546px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #fff;
+  position: absolute;
+  border: 2px solid #e2231a;
+  left: 260px;
+  top: 25px;
+}
+
+.search input {
+  width: 425px;
+  height: 26px;
+  padding: 2px 44px 2px 17px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  float: left;
+}
+
+.search button {
+  width: 58px;
+  height: 32px;
+  background-color: #E1251B;
+  float: left;
+  border: 1px solid #e2231a;  
+}
+.search button i {
+  font-style: normal;
+  color: #fff;
+  font-family: "icomoon";
+}
+.shopCar {
+  width: 132px;
+  height: 36px;
+  line-height: 36px;
+  position: absolute;
+  right: 230px;
+  top: 25px;
+  border: 1px solid #e3e4e5;
+  font-size: 12px;
+  background-color: #fff;
+  text-align: center;
+}
+.shopCar:hover {
+  border-color: #F10215;
+  cursor: text;
+}
+.shopCar i {
+  font-family: "icomoon";
+  font-style: normal;
+  margin-right: 13px;
+}
+.shopCar span {
+  position: absolute;
+  top: 1px;
+  left: 27px;
+  color: #fff;
+  background-color: #E1251B;
+  width: 18px;
+  height: 14px;
+  line-height: 14px;
+  border-radius: 50%;
+}
+.hotWords {
+  position: absolute;
+  left: 260px;
+  top: 65px;
+  width: 550px;
+  height: 20px;
+  line-height: 20px;
+}
+.hotWords a {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.topNav {
+  position: absolute;
+  height: 40px;
+  left: 203px;
+  bottom: 0;
+  padding: 20px 0 0;
+}
+.topNav li{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  font-size: 15px;
+  margin: 0 11px;
+}
+.topNav li a {
+  color: #333;
+}
+.topNav li a:hover {
+  color: #F10215;
+}
+.service {
+  border-bottom: 1px solid #dedede;
+  padding: 30px 0;
+}
+.service .serviceList {
+  margin: 0 auto;
+}
+.service ul {
+  height: 42px;
+}
+.service li {
+  float: left;
+  width: 297px;
+}
+.service .serviceBox {
+  margin: 0 auto;
+  width: 180px;
+  position: relative;
+  padding-left: 45px;
+}
+.service h5 {
+  width: 36px;
+  height: 42px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-indent: -999;
+}
+.service li p {
+  width: 180px;
+  height: 42px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 42px;
+  overflow: hidden;
+}
+
+.service .duo {
+  background: url(src/footerSprite.png) no-repeat 0 -192px;
+}
+.service .kuai {
+  background: url(src/footerSprite.png) no-repeat -41px -192px;
+}
+.service .hao {
+  background: url(src/footerSprite.png) no-repeat -82px -192px;
+}
+.service .sheng {
+  background: url(src/footerSprite.png) no-repeat -123px -192px;
+}
+.help {
+  padding: 20px 0;
+}
+.help .helpInner {
+  margin: 0 auto;
+}
+.help .helpList {
+  height: 160px;
+}
+.help .helpList .helpNav {
+  float: left;
+  width: 198px;
+  line-height: 22px;
+}
+.help .helpNav h5 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.help .helpNav a {
+  color: #666;
+}
+.help a:hover {
+  color: #F10215;
+}
+.help .helpCover {
+  float: right;
+  width: 200px;
+  height: 150px;
+}
+.help .helpCover h5 {
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+.help .helpCover .more {
+  text-align: right;
+}
+.help .more a {
+  color: #666;
+}
+.help .more a:hover {
+  color: #F10215;
+}
+/* copyRight start */
+.copyRight .copyRightInner {
+  padding: 15px 0;
+  border-top: 1px solid #e1e1e1;
+  text-align: center;
+  margin: 0 auto;
+}
+.copyRight .cprtBd {
+  margin: 0 10px;
+  color: #ccc;
+}
+.copyRight .cprtLink a {
+  color: #666;
+}
+.copyRight .cprtLink a:hover {
+  color: #F10215;
+}
+.copyRightInfo {
+  padding: 10px 0;
+  line-height: 22px;
+  color: #999;
+}
